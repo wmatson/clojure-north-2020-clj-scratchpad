@@ -15,7 +15,7 @@ Developed By: Wesley A Matson
   - [Emacs](https://www.gnu.org/software/emacs/) with the [CIDER](https://github.com/clojure-emacs/cider) package offers a unique/useful data explorer, a decent config can be found [here](https://github.com/wmatson/emacs-config) (not recommended for beginner Clojurists)
 - Verify your setup by cloning this repo and starting your REPL/jacking in
   - Calva on Windows (jack-in): Ctrl + Alt + C, Ctrl + Alt J
-  - Emacs/CIDER: C-M-c, C-M-j
+  - Emacs/CIDER: C-c, M-j
   
 ## Outline
 
