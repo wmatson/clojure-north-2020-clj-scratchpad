@@ -1,0 +1,503 @@
+event-id,event-name,event-type,extra-1,extra-2,extra-3
+75,Cute Monkey Attack,Podcast,39,49,19
+332,Comical Monkey Attack,Podcast,79,79,72
+184,Cute Wednesday,Podcast,76,32,76
+335,Sponsored Food Review,Video,39,60,20
+155,Terrific Food Review,Article,84,6,64
+341,Clickbait-y Monkey Attack,Video,12,56,53
+243,Cute Food Review,Article,91,64,12
+102,Hilarious Food Review,Article,4,44,54
+247,Hilarious Wednesday,Video,41,86,80
+353,Criminal Food Review,Video,79,62,48
+282,Cute Wednesday,Video,38,54,53
+435,Sponsored Monkey Attack,Video,6,19,75
+105,Amiable Physics Discovery,Article,69,52,90
+322,Sponsored Monkey Attack,Article,67,98,50
+132,Amiable Clown Story,Video,3,26,48
+118,Comical Wednesday,Video,71,84,65
+286,Zoological Clickbait,Video,99,14,70
+436,Hilarious Wednesday,Podcast,53,47,9
+74,Hilarious Physics Discovery,Podcast,3,89,4
+209,Clickbait-y Monkey Attack,Video,39,60,56
+466,Amiable Monkey Attack,Video,12,18,62
+28,Bashful Food Review,Article,6,38,82
+275,Terrific Clown Story,Video,42,60,72
+434,Zoological Food Review,Article,64,68,1
+207,Sponsored Monkey Attack,Podcast,61,51,77
+344,Comical Clickbait,Article,8,31,100
+308,Sponsored Food Review,Video,5,17,63
+126,Comical Food Review,Video,27,4,27
+176,Hilarious Food Review,Video,61,29,59
+185,Comical Clickbait,Video,87,73,83
+257,Zoological Physics Discovery,Article,59,33,54
+258,Bashful Clown Story,Article,69,26,84
+121,Cute Clown Story,Podcast,18,36,90
+200,Clickbait-y Physics Discovery,Podcast,80,24,18
+475,Sponsored Wednesday,Video,35,12,87
+13,Bashful Clickbait,Video,70,25,48
+22,Clickbait-y Clickbait,Article,83,47,27
+445,Bashful Wednesday,Article,76,68,81
+386,Amiable Wednesday,Article,81,23,69
+343,Comical Physics Discovery,Article,45,35,62
+156,Terrific Food Review,Podcast,47,48,36
+236,Zoological Clown Story,Video,99,53,86
+140,Clickbait-y Clown Story,Podcast,29,4,31
+138,Zoological Wednesday,Video,23,20,96
+2,Cute Food Review,Podcast,9,37,41
+112,Terrific Monkey Attack,Podcast,41,21,76
+427,Bashful Wednesday,Video,15,96,7
+304,Hilarious Clickbait,Article,27,22,71
+480,Bashful Monkey Attack,Video,92,68,5
+25,Amiable Clickbait,Podcast,48,32,86
+115,Clickbait-y Food Review,Video,30,8,36
+146,Bashful Physics Discovery,Podcast,86,83,90
+374,Hilarious Monkey Attack,Podcast,84,68,28
+150,Amiable Clown Story,Podcast,20,79,62
+437,Comical Wednesday,Video,7,41,93
+440,Hilarious Monkey Attack,Article,36,49,53
+58,Comical Monkey Attack,Podcast,27,47,8
+231,Terrific Food Review,Podcast,80,59,100
+240,Terrific Physics Discovery,Video,69,5,9
+76,Hilarious Food Review,Video,83,39,58
+485,Amiable Clown Story,Podcast,83,79,11
+255,Terrific Monkey Attack,Article,20,44,34
+446,Bashful Wednesday,Article,87,25,46
+342,Terrific Wednesday,Video,60,31,10
+100,Sponsored Monkey Attack,Podcast,55,19,40
+487,Clickbait-y Food Review,Podcast,37,70,14
+450,Amiable Monkey Attack,Article,24,6,15
+377,Comical Food Review,Article,77,84,1
+163,Zoological Monkey Attack,Article,33,83,14
+392,Amiable Physics Discovery,Video,100,26,21
+333,Criminal Physics Discovery,Video,70,8,62
+135,Sponsored Physics Discovery,Article,51,31,20
+385,Sponsored Food Review,Article,94,20,72
+187,Comical Physics Discovery,Podcast,28,24,29
+295,Amiable Clickbait,Podcast,95,54,67
+302,Bashful Physics Discovery,Article,82,76,9
+203,Zoological Monkey Attack,Podcast,91,35,85
+428,Zoological Wednesday,Podcast,70,85,11
+81,Criminal Food Review,Video,54,67,31
+197,Comical Wednesday,Video,86,96,83
+213,Zoological Food Review,Article,88,53,36
+82,Bashful Monkey Attack,Video,99,51,33
+407,Cute Food Review,Podcast,56,12,29
+70,Clickbait-y Clown Story,Article,17,42,69
+492,Amiable Food Review,Podcast,39,30,87
+481,Clickbait-y Monkey Attack,Video,80,28,10
+87,Sponsored Monkey Attack,Podcast,56,88,73
+488,Clickbait-y Physics Discovery,Video,44,65,37
+222,Amiable Food Review,Podcast,18,53,62
+92,Bashful Physics Discovery,Podcast,68,18,85
+388,Criminal Clown Story,Video,29,96,4
+39,Zoological Wednesday,Article,45,34,25
+208,Sponsored Food Review,Article,38,79,3
+117,Bashful Clown Story,Article,34,85,85
+78,Hilarious Clickbait,Article,58,72,13
+114,Bashful Food Review,Video,51,12,91
+194,Hilarious Clickbait,Article,34,10,87
+193,Terrific Food Review,Video,55,68,51
+23,Bashful Clown Story,Video,24,84,50
+339,Zoological Clickbait,Video,54,98,28
+269,Comical Physics Discovery,Video,82,7,3
+220,Amiable Clown Story,Article,79,43,40
+165,Cute Monkey Attack,Video,91,96,76
+324,Criminal Physics Discovery,Article,40,73,38
+245,Sponsored Physics Discovery,Video,81,81,25
+496,Cute Clickbait,Article,75,79,61
+4,Zoological Clickbait,Article,12,75,75
+235,Hilarious Physics Discovery,Podcast,36,90,44
+284,Terrific Physics Discovery,Video,27,24,39
+214,Hilarious Clickbait,Podcast,27,64,80
+389,Criminal Clown Story,Podcast,20,94,19
+104,Sponsored Monkey Attack,Video,75,2,87
+17,Zoological Food Review,Article,54,61,10
+277,Amiable Monkey Attack,Video,22,82,16
+101,Bashful Physics Discovery,Podcast,59,31,58
+47,Clickbait-y Food Review,Video,2,13,48
+315,Cute Physics Discovery,Video,17,31,90
+474,Clickbait-y Wednesday,Podcast,53,56,5
+497,Amiable Clown Story,Video,78,1,78
+49,Sponsored Monkey Attack,Article,97,9,66
+242,Hilarious Monkey Attack,Article,41,50,97
+144,Bashful Clickbait,Article,21,15,11
+233,Hilarious Wednesday,Article,93,52,51
+124,Zoological Physics Discovery,Video,82,95,74
+478,Hilarious Clickbait,Podcast,74,89,37
+215,Sponsored Food Review,Article,25,29,97
+310,Terrific Monkey Attack,Video,91,6,64
+425,Sponsored Wednesday,Video,27,33,50
+67,Sponsored Food Review,Video,99,75,37
+48,Cute Food Review,Video,67,29,13
+416,Zoological Physics Discovery,Podcast,31,46,10
+305,Bashful Clickbait,Podcast,81,85,59
+186,Cute Wednesday,Podcast,4,20,97
+390,Hilarious Wednesday,Podcast,6,3,31
+451,Criminal Physics Discovery,Article,57,67,65
+59,Comical Clown Story,Article,94,86,55
+288,Zoological Physics Discovery,Video,17,5,8
+449,Hilarious Physics Discovery,Video,36,28,54
+273,Bashful Food Review,Podcast,43,37,2
+395,Hilarious Clickbait,Video,8,1,31
+382,Zoological Food Review,Podcast,50,88,73
+107,Hilarious Clown Story,Video,90,4,80
+380,Hilarious Physics Discovery,Article,20,48,96
+21,Amiable Physics Discovery,Article,21,47,66
+320,Amiable Food Review,Article,10,23,28
+351,Criminal Clown Story,Podcast,80,65,80
+251,Clickbait-y Wednesday,Podcast,73,53,40
+399,Criminal Clown Story,Article,63,86,100
+429,Clickbait-y Food Review,Podcast,68,92,71
+43,Bashful Clickbait,Video,17,10,49
+103,Zoological Wednesday,Video,88,6,59
+175,Cute Clown Story,Video,36,18,26
+346,Clickbait-y Food Review,Video,2,96,13
+221,Bashful Clown Story,Article,94,67,9
+52,Bashful Clickbait,Video,96,62,2
+46,Comical Food Review,Podcast,4,19,93
+393,Sponsored Clickbait,Podcast,51,52,36
+356,Cute Clickbait,Article,12,86,98
+201,Clickbait-y Clown Story,Article,54,1,53
+260,Clickbait-y Food Review,Article,40,24,51
+281,Bashful Clown Story,Podcast,41,97,20
+8,Criminal Clickbait,Video,75,25,54
+469,Bashful Physics Discovery,Video,37,86,73
+473,Comical Physics Discovery,Article,58,33,86
+19,Bashful Food Review,Article,75,100,50
+65,Clickbait-y Clickbait,Podcast,4,67,96
+465,Sponsored Monkey Attack,Video,58,63,88
+267,Terrific Food Review,Podcast,95,93,21
+270,Sponsored Physics Discovery,Video,1,21,43
+141,Sponsored Food Review,Article,33,100,49
+164,Hilarious Food Review,Podcast,17,63,66
+123,Terrific Clickbait,Article,22,93,87
+297,Sponsored Food Review,Podcast,92,69,45
+192,Comical Physics Discovery,Article,78,30,62
+66,Bashful Monkey Attack,Podcast,54,76,54
+422,Cute Monkey Attack,Video,83,63,87
+33,Hilarious Monkey Attack,Podcast,13,62,86
+292,Comical Monkey Attack,Podcast,17,10,38
+178,Amiable Monkey Attack,Video,70,89,74
+493,Amiable Clickbait,Podcast,11,74,8
+191,Bashful Clickbait,Podcast,42,85,89
+79,Hilarious Physics Discovery,Podcast,100,18,41
+318,Terrific Monkey Attack,Video,17,22,91
+224,Cute Wednesday,Podcast,68,74,53
+373,Terrific Food Review,Podcast,90,82,87
+328,Bashful Clickbait,Podcast,84,16,78
+154,Terrific Monkey Attack,Article,86,100,1
+226,Clickbait-y Monkey Attack,Podcast,87,4,96
+372,Hilarious Monkey Attack,Video,23,53,79
+413,Bashful Clickbait,Article,71,51,61
+1,Sponsored Clown Story,Video,48,40,13
+36,Criminal Wednesday,Video,39,93,86
+212,Sponsored Physics Discovery,Podcast,81,31,30
+3,Bashful Food Review,Video,75,2,92
+326,Clickbait-y Food Review,Video,17,46,15
+291,Zoological Clickbait,Video,39,7,51
+491,Amiable Clown Story,Article,65,55,7
+73,Amiable Physics Discovery,Video,64,84,31
+206,Terrific Physics Discovery,Article,35,43,41
+354,Comical Clown Story,Article,60,17,84
+442,Hilarious Monkey Attack,Podcast,8,73,95
+336,Bashful Monkey Attack,Podcast,44,50,42
+256,Criminal Monkey Attack,Podcast,18,93,92
+80,Terrific Clown Story,Article,43,3,96
+86,Comical Wednesday,Podcast,73,34,39
+44,Terrific Food Review,Video,84,59,20
+452,Amiable Wednesday,Podcast,98,58,78
+179,Sponsored Monkey Attack,Podcast,86,9,83
+55,Bashful Physics Discovery,Article,42,58,4
+349,Criminal Monkey Attack,Article,94,2,54
+378,Hilarious Clickbait,Podcast,49,28,72
+223,Amiable Clown Story,Video,78,21,43
+229,Zoological Physics Discovery,Video,74,94,59
+384,Hilarious Clown Story,Video,12,3,69
+216,Amiable Wednesday,Article,90,17,100
+147,Sponsored Monkey Attack,Article,100,20,25
+471,Comical Physics Discovery,Video,63,94,7
+133,Cute Clickbait,Video,60,33,57
+300,Cute Clown Story,Podcast,3,87,10
+361,Terrific Wednesday,Video,16,58,10
+418,Bashful Physics Discovery,Podcast,21,79,34
+405,Hilarious Clickbait,Video,71,14,93
+244,Zoological Wednesday,Video,96,68,92
+264,Clickbait-y Clown Story,Article,12,32,52
+24,Zoological Wednesday,Article,53,69,51
+375,Terrific Clown Story,Video,100,91,83
+447,Clickbait-y Clown Story,Video,13,77,43
+248,Cute Wednesday,Podcast,67,59,27
+183,Amiable Food Review,Article,17,85,36
+108,Hilarious Food Review,Article,76,1,11
+383,Cute Monkey Attack,Video,72,49,92
+211,Sponsored Wednesday,Article,72,95,70
+495,Comical Clown Story,Video,75,80,7
+167,Amiable Wednesday,Podcast,42,67,68
+306,Cute Clown Story,Article,68,41,42
+11,Criminal Wednesday,Article,7,37,97
+441,Bashful Monkey Attack,Video,85,31,91
+77,Amiable Monkey Attack,Video,10,7,70
+376,Terrific Physics Discovery,Podcast,88,71,85
+362,Sponsored Physics Discovery,Podcast,61,89,41
+408,Bashful Food Review,Podcast,85,3,68
+313,Cute Monkey Attack,Podcast,24,19,26
+127,Cute Clown Story,Podcast,15,100,93
+136,Terrific Clown Story,Podcast,50,13,53
+454,Criminal Food Review,Podcast,62,73,86
+63,Bashful Wednesday,Video,82,86,92
+159,Clickbait-y Physics Discovery,Video,18,67,5
+85,Hilarious Physics Discovery,Podcast,77,67,42
+97,Criminal Wednesday,Podcast,32,70,4
+330,Zoological Wednesday,Article,2,28,23
+330,Zoological Wednesday,Article,2,28,23
+276,Clickbait-y Food Review,Podcast,70,43,51
+412,Cute Food Review,Podcast,11,8,57
+218,Cute Monkey Attack,Video,42,78,93
+391,Clickbait-y Clown Story,Video,6,68,17
+311,Zoological Monkey Attack,Video,20,55,86
+272,Comical Physics Discovery,Video,11,30,44
+467,Terrific Monkey Attack,Podcast,92,93,99
+61,Comical Physics Discovery,Video,51,16,13
+340,Clickbait-y Clown Story,Article,17,100,27
+287,Comical Wednesday,Article,8,37,5
+486,Bashful Clickbait,Article,33,39,63
+299,Sponsored Physics Discovery,Article,64,69,74
+93,Comical Wednesday,Article,74,58,18
+148,Hilarious Wednesday,Article,18,90,73
+252,Zoological Clickbait,Video,83,90,34
+34,Bashful Clickbait,Podcast,22,87,86
+294,Criminal Clickbait,Video,10,52,54
+307,Terrific Physics Discovery,Video,57,70,68
+350,Sponsored Clickbait,Article,74,47,34
+397,Terrific Clickbait,Article,2,97,38
+35,Zoological Physics Discovery,Podcast,7,42,59
+415,Sponsored Physics Discovery,Article,69,55,83
+162,Clickbait-y Physics Discovery,Podcast,18,61,56
+360,Terrific Clickbait,Article,2,33,73
+265,Zoological Clickbait,Podcast,68,30,80
+110,Hilarious Clown Story,Podcast,8,89,43
+210,Bashful Clickbait,Podcast,60,8,1
+254,Clickbait-y Clown Story,Article,90,3,23
+32,Bashful Clown Story,Article,75,19,49
+409,Cute Clickbait,Article,11,2,8
+237,Terrific Wednesday,Video,44,63,91
+225,Criminal Clickbait,Podcast,34,63,63
+249,Comical Physics Discovery,Podcast,73,56,35
+448,Comical Clickbait,Video,71,8,40
+177,Criminal Clown Story,Podcast,30,18,9
+151,Bashful Physics Discovery,Podcast,30,21,59
+483,Comical Clickbait,Article,32,55,72
+173,Clickbait-y Clickbait,Podcast,94,79,32
+26,Amiable Physics Discovery,Video,14,40,52
+130,Comical Clickbait,Podcast,30,1,79
+285,Amiable Food Review,Article,56,65,39
+83,Comical Clown Story,Podcast,86,96,77
+37,Zoological Clickbait,Article,62,77,8
+234,Cute Physics Discovery,Podcast,24,58,5
+424,Hilarious Wednesday,Video,56,47,34
+158,Hilarious Clown Story,Podcast,20,92,33
+204,Sponsored Monkey Attack,Video,42,47,79
+368,Criminal Food Review,Video,43,99,62
+301,Cute Monkey Attack,Article,94,68,73
+143,Comical Physics Discovery,Video,76,64,7
+303,Comical Clown Story,Article,26,70,22
+181,Amiable Wednesday,Article,81,73,44
+96,Criminal Monkey Attack,Podcast,65,14,82
+241,Hilarious Monkey Attack,Video,47,17,51
+246,Terrific Food Review,Podcast,95,29,77
+10,Amiable Food Review,Podcast,46,23,16
+228,Amiable Clickbait,Video,85,6,90
+404,Clickbait-y Physics Discovery,Article,52,47,62
+458,Zoological Wednesday,Video,54,73,93
+357,Amiable Clickbait,Video,3,8,15
+476,Zoological Food Review,Video,86,44,30
+477,Zoological Food Review,Video,18,100,24
+367,Cute Physics Discovery,Video,70,96,93
+414,Bashful Monkey Attack,Podcast,58,59,68
+205,Bashful Food Review,Video,47,35,100
+62,Bashful Food Review,Article,100,51,27
+30,Comical Food Review,Video,59,45,25
+433,Terrific Physics Discovery,Podcast,94,3,29
+42,Terrific Clown Story,Article,14,61,47
+259,Amiable Wednesday,Podcast,58,88,53
+170,Comical Physics Discovery,Video,5,58,84
+370,Sponsored Monkey Attack,Podcast,75,83,75
+131,Criminal Food Review,Podcast,79,7,84
+379,Clickbait-y Physics Discovery,Podcast,16,6,20
+120,Clickbait-y Monkey Attack,Video,77,30,13
+459,Zoological Clown Story,Article,51,60,21
+499,Zoological Wednesday,Video,26,51,35
+317,Hilarious Food Review,Podcast,73,36,28
+57,Terrific Monkey Attack,Article,77,46,24
+0,Hilarious Clown Story,Article,59,56,54
+161,Terrific Clickbait,Video,60,81,85
+153,Bashful Monkey Attack,Podcast,25,71,21
+494,Hilarious Wednesday,Article,53,46,73
+430,Amiable Clickbait,Podcast,83,4,85
+90,Hilarious Wednesday,Podcast,88,1,71
+325,Cute Food Review,Podcast,32,55,93
+489,Terrific Clickbait,Podcast,28,96,6
+323,Zoological Physics Discovery,Article,25,86,67
+116,Clickbait-y Clown Story,Article,7,28,34
+145,Clickbait-y Wednesday,Video,45,54,88
+5,Bashful Clown Story,Video,52,94,46
+394,Hilarious Wednesday,Podcast,7,86,44
+174,Hilarious Clickbait,Video,12,4,44
+89,Sponsored Monkey Attack,Podcast,55,31,64
+432,Cute Clown Story,Podcast,83,26,84
+327,Zoological Monkey Attack,Video,86,4,11
+271,Hilarious Clown Story,Podcast,58,70,41
+253,Terrific Monkey Attack,Video,47,78,32
+348,Amiable Physics Discovery,Video,23,46,14
+198,Cute Clickbait,Podcast,77,75,6
+426,Terrific Wednesday,Podcast,4,73,58
+283,Terrific Monkey Attack,Video,68,85,86
+355,Comical Food Review,Article,1,67,1
+262,Zoological Clickbait,Article,96,19,73
+278,Sponsored Food Review,Article,37,10,34
+68,Amiable Monkey Attack,Podcast,41,59,84
+172,Clickbait-y Monkey Attack,Article,66,55,87
+319,Zoological Monkey Attack,Article,83,3,54
+366,Clickbait-y Wednesday,Article,68,21,23
+455,Cute Food Review,Video,76,7,51
+18,Terrific Monkey Attack,Video,10,93,66
+238,Terrific Clown Story,Article,52,86,99
+369,Bashful Food Review,Podcast,25,95,56
+312,Clickbait-y Wednesday,Podcast,72,47,7
+41,Criminal Physics Discovery,Article,73,41,98
+6,Criminal Physics Discovery,Article,90,97,20
+338,Comical Food Review,Podcast,100,49,11
+9,Clickbait-y Clickbait,Podcast,5,28,44
+106,Zoological Wednesday,Article,73,3,16
+188,Terrific Monkey Attack,Article,98,42,8
+290,Amiable Physics Discovery,Video,17,76,6
+230,Comical Clickbait,Article,43,59,10
+314,Amiable Food Review,Article,69,2,72
+142,Cute Monkey Attack,Podcast,45,60,95
+157,Comical Wednesday,Article,34,5,11
+169,Cute Clown Story,Podcast,49,72,61
+296,Bashful Clown Story,Article,49,97,20
+400,Clickbait-y Monkey Attack,Article,81,65,34
+12,Cute Clown Story,Video,94,94,50
+171,Amiable Wednesday,Article,34,85,6
+482,Zoological Physics Discovery,Article,12,6,10
+71,Terrific Physics Discovery,Video,20,43,25
+439,Clickbait-y Monkey Attack,Article,83,50,38
+420,Criminal Physics Discovery,Podcast,98,34,45
+166,Criminal Clickbait,Article,75,16,78
+60,Criminal Physics Discovery,Podcast,9,98,14
+421,Bashful Wednesday,Article,70,63,66
+40,Hilarious Clown Story,Podcast,62,85,69
+321,Comical Clown Story,Article,13,99,29
+196,Bashful Clickbait,Video,25,60,37
+219,Comical Clickbait,Article,29,84,46
+444,Clickbait-y Physics Discovery,Video,71,48,98
+329,Zoological Wednesday,Article,45,64,55
+14,Sponsored Clickbait,Podcast,70,98,91
+129,Amiable Food Review,Article,64,86,61
+268,Hilarious Food Review,Video,32,56,38
+152,Bashful Clickbait,Article,99,98,35
+337,Hilarious Wednesday,Podcast,63,5,54
+470,Criminal Food Review,Article,5,94,93
+137,Zoological Physics Discovery,Video,16,82,16
+72,Hilarious Physics Discovery,Article,18,98,13
+64,Amiable Clickbait,Article,46,50,80
+417,Sponsored Clickbait,Video,32,66,22
+15,Hilarious Clickbait,Video,29,98,15
+95,Amiable Physics Discovery,Article,4,97,46
+443,Comical Food Review,Podcast,48,3,46
+387,Clickbait-y Physics Discovery,Video,34,60,14
+109,Bashful Wednesday,Article,35,13,96
+347,Hilarious Wednesday,Video,9,7,74
+91,Comical Monkey Attack,Video,83,96,35
+53,Clickbait-y Food Review,Video,39,40,46
+31,Terrific Monkey Attack,Video,100,35,17
+122,Cute Wednesday,Video,7,66,42
+498,Criminal Wednesday,Podcast,63,59,60
+468,Cute Monkey Attack,Article,54,70,40
+99,Sponsored Clown Story,Podcast,63,41,58
+149,Hilarious Clown Story,Video,20,45,86
+27,Sponsored Physics Discovery,Podcast,68,46,84
+190,Cute Monkey Attack,Article,92,21,92
+182,Sponsored Clickbait,Podcast,78,55,19
+431,Amiable Clickbait,Podcast,83,57,73
+289,Sponsored Food Review,Podcast,92,56,88
+364,Cute Wednesday,Video,100,2,28
+189,Amiable Food Review,Video,69,75,52
+239,Bashful Clown Story,Article,54,66,22
+464,Clickbait-y Physics Discovery,Video,58,93,73
+365,Bashful Monkey Attack,Video,96,60,20
+113,Zoological Wednesday,Video,97,87,47
+472,Hilarious Monkey Attack,Podcast,20,98,90
+168,Terrific Clickbait,Article,80,37,25
+456,Criminal Wednesday,Podcast,78,25,41
+50,Bashful Physics Discovery,Article,26,57,77
+134,Terrific Clown Story,Video,58,4,71
+111,Sponsored Clickbait,Podcast,5,8,64
+7,Criminal Clown Story,Podcast,83,6,51
+125,Amiable Clown Story,Article,48,3,70
+38,Cute Monkey Attack,Video,34,7,40
+180,Cute Monkey Attack,Article,71,45,51
+402,Bashful Monkey Attack,Podcast,84,47,29
+345,Criminal Food Review,Article,91,69,77
+293,Terrific Physics Discovery,Article,61,63,71
+139,Comical Food Review,Video,50,48,45
+88,Bashful Physics Discovery,Video,68,2,10
+484,Criminal Physics Discovery,Video,25,67,34
+69,Bashful Food Review,Video,53,85,71
+381,Clickbait-y Food Review,Article,81,40,5
+410,Sponsored Clown Story,Article,30,94,71
+331,Hilarious Monkey Attack,Video,52,62,55
+419,Comical Food Review,Podcast,36,46,35
+316,Cute Monkey Attack,Article,4,40,5
+363,Clickbait-y Clown Story,Article,73,65,97
+54,Clickbait-y Clown Story,Video,14,92,96
+490,Cute Clown Story,Video,9,27,12
+359,Bashful Clown Story,Podcast,39,77,95
+334,Criminal Physics Discovery,Article,5,35,10
+460,Hilarious Monkey Attack,Article,96,79,69
+403,Amiable Monkey Attack,Article,60,94,18
+128,Comical Food Review,Video,93,73,16
+217,Bashful Food Review,Podcast,69,12,36
+195,Cute Clickbait,Video,71,55,12
+371,Zoological Monkey Attack,Podcast,89,18,63
+263,Hilarious Clickbait,Video,67,66,84
+261,Zoological Clickbait,Video,42,38,54
+16,Sponsored Clickbait,Video,38,4,38
+401,Comical Clown Story,Article,91,68,65
+462,Terrific Food Review,Article,6,71,67
+279,Cute Wednesday,Article,100,63,50
+94,Terrific Clickbait,Article,42,17,9
+199,Hilarious Physics Discovery,Article,91,47,56
+461,Clickbait-y Food Review,Article,27,83,26
+352,Amiable Physics Discovery,Podcast,29,69,68
+56,Cute Clickbait,Video,68,88,25
+423,Clickbait-y Food Review,Podcast,47,38,20
+51,Terrific Wednesday,Video,89,78,19
+298,Zoological Monkey Attack,Article,24,92,21
+250,Hilarious Clickbait,Article,72,3,13
+232,Zoological Clickbait,Video,52,100,22
+280,Sponsored Clown Story,Video,11,70,66
+227,Zoological Clickbait,Article,18,21,29
+453,Clickbait-y Clickbait,Podcast,63,14,49
+45,Clickbait-y Physics Discovery,Podcast,11,15,2
+309,Sponsored Clown Story,Video,52,15,17
+119,Zoological Monkey Attack,Video,23,60,70
+160,Bashful Food Review,Video,63,83,74
+479,Cute Monkey Attack,Article,71,79,41
+396,Sponsored Food Review,Article,96,85,97
+457,Zoological Food Review,Video,80,95,79
+266,Bashful Clown Story,Podcast,15,43,59
+29,Zoological Physics Discovery,Video,20,92,45
+84,Comical Monkey Attack,Podcast,22,52,4
+463,Criminal Food Review,Podcast,43,88,23
+438,Comical Monkey Attack,Video,8,17,39
+358,Clickbait-y Food Review,Video,1,93,88
+98,Sponsored Clown Story,Article,35,41,83
+202,Hilarious Wednesday,Podcast,58,100,36
+398,Criminal Physics Discovery,Podcast,29,86,35
+274,Hilarious Clown Story,Article,92,28,10
+406,Clickbait-y Monkey Attack,Podcast,3,57,7
+411,Criminal Clown Story,Article,99,16,1
+411,Criminal Clown Story,Article,99,16,1
+20,Comical Wednesday,Video,83,98,13
