@@ -1,8 +1,8 @@
 (ns clj-scratchpad.one-offs.tckt-101-create-exercise-file
-  (:require [medley.core :as medley]
-            [clj-scratchpad.utils.csv :as csvu]
-            [clojure.java.io :as io]
-            [clojure.data.csv :as csv]))
+  (:require
+   [clj-scratchpad.utils.csv :as csvu]
+   [clojure.java.io :as io]
+   [clojure.data.csv :as csv]))
 
 (defn- generate-item
   ([] (generate-item (rand-int 100000)))
