@@ -26,12 +26,6 @@
          (apply concat))))
 
 (comment
-  ;; Ensure duplicates
-  (->> (gen-with-duplicates 50)
-       (map #(get % "event-id"))
-       frequencies
-       (medley/filter-vals #(> % 1)))
-
   (with-open [writer (io/writer "resources/exercise-1.csv")]
     (->> (gen-with-duplicates 500)
          (csvu/maps->csv-data)
