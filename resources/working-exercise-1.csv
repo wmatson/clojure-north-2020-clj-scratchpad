@@ -1,11 +1,11 @@
-event-id,event-name,event-type,extra-1,extra-2,extra-3
-5,Amiable Clickbait,Video,94,53,90
-1,Amiable Clickbait,Article,93,42,8
-0,Terrific Food Review,Article,58,87,15
-7,Criminal Physics Discovery,Video,100,26,3
-9,Sponsored Clickbait,Podcast,49,82,32
-3,Zoological Food Review,Podcast,44,61,70
-4,Terrific Monkey Attack,Article,73,70,46
-2,Bashful Clown Story,Video,98,39,14
-6,Sponsored Clown Story,Podcast,99,38,81
-8,Hilarious Clown Story,Video,3,68,7
+event-id,event-name,event-type,extra-1
+5,Amiable Clickbait,Video,94
+1,Amiable Clickbait,Article,93
+0,Terrific Food Review,Article,58
+7,Criminal Physics Discovery,Video,100
+9,Sponsored Clickbait,Podcast,49
+3,Zoological Food Review,Podcast,44
+4,Terrific Monkey Attack,Article,73
+2,Bashful Clown Story,Video,98
+6,Sponsored Clown Story,Podcast,99
+8,Hilarious Clown Story,Video,3
