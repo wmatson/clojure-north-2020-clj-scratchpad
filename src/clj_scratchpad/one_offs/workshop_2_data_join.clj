@@ -20,7 +20,7 @@
                   JOIN purchase_adjacent_events pae ON pae.purchaseId = p.id
                   LIMIT 10"])
 
+  ;; Docs: http://workshop.wmatson.com:8084/api-docs
   (http/request {:url (str base-url "favorite-function")
                  :method :get
                  :as :json}))
-
