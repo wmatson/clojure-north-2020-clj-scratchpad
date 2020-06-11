@@ -7,4 +7,4 @@
 (comment
   ;; Upload location: http://workshop.wmatson.com:8080/
 
-  (take 10 (csv/read-maps "resources/exercise-1.csv")))
+  (take 10 (csvu/read-maps "resources/exercise-1.csv")))
