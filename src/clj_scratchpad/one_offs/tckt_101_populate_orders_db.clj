@@ -4,12 +4,12 @@
             [clj-scratchpad.utils.password :as pass]
             [clj-scratchpad.utils.csv :as csv]))
 
-(def db {:dbtype "mysql" :host "52.27.179.12"
+(def db {:dbtype "mysql" :host "workshop-db.wmatson.com"
          :user "root" :password (pass/get-password :orders-db/admin)
          :dbname "orders"})
 
 (def readonly-db
-  {:dbtype "mysql" :host "52.27.179.12"
+  {:dbtype "mysql" :host "workshop-db.wmatson.com"
    :user "read-only" :password (pass/get-password :orders-db/read-only)
    :dbname "orders"})
 
@@ -79,6 +79,7 @@
   (def ds (jdbc/get-datasource db))
 
   (create-schema! ds)
+  (create-read-user ds)
 
   (sql/insert-multi! ds :items
                      [:name :cost]
