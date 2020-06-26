@@ -7,6 +7,11 @@
 (defn- keywordify-keys [event]
   (medley/map-keys keyword event))
 
+(defn get-corrected-data []
+  (->> (csvu/read-maps "resources/exercise-1.csv")
+       (map keywordify-keys)
+       set))
+
 (comment
   ;; Upload location: http://workshop.wmatson.com:8080/
 
@@ -15,7 +20,7 @@
        (group-by :event-id)
        (medley/filter-vals #(> (count %) 1))
        (take 10))
-  
+
   (with-open [writer (io/writer "resources/exercise-1-corrected.csv")]
     (->> (csvu/read-maps "resources/exercise-1.csv")
          set

@@ -1,27 +1,10 @@
 (ns clj-scratchpad.one-offs.workshop-solution-2-data-join
   (:require [next.jdbc :as jdbc]
             [clj-http.client :as http]
+            [clj-scratchpad.one-offs.workshop-solution-1-csv-upload :as exercise-1]
             [clj-scratchpad.utils.password :as pass]
+            [medley.core :as medley]
             [next.jdbc.sql :as sql]))
-
-;; As the old monolith splits into shiny new microservices, it's
-;; become harder to ask routine business intelligence questions.
-;; 
-;; After all, not all the data resides in one database together
-;; anymore.
-;; 
-;; --------------------------------------------------------------------------
-;; 
-;; Here are some questions to answer:
-;; 
-;; What type of event is most effective at driving sales?
-;;    - Please break this down by 20-year age groups (0-20, 21-40, 41-60, ...)
-;;    - Please provide an answer in item quantity as well as gross proceeds
-;; 
-;; 
-;; If the exercise is too easy, spend some time playing with streaming lazily
-;; such that the full dataset never needs to sit in memory.
-
 
 ;;Password is visi0n
 (def readonly-db
@@ -33,17 +16,54 @@
 
 (def base-url "http://workshop.wmatson.com:8084/api/")
 
+(defn- coerce-id [event]
+  (update event :event-id #(Integer/parseInt %)))
+
+(defn gross-proceeds [{:keys [purchases/quantity items/cost]}]
+  (* quantity cost))
+
+(defn- get-users [page]
+
+  (-> (http/request {:url (str base-url "users")
+                     :method :get
+                     :query-params {:skip (* 100 page)
+                                    :limit page}
+                     :as :json})
+      :body
+      :result))
+
+(defn- join-data [purchase-rows users events]
+  (-> (set purchase-rows)
+      (clojure.set/join (set events) {:purchase_adjacent_events/eventId :event-id})
+      (clojure.set/join (set users) {:purchases/userId :id})))
+
 (comment
-  
-  ;; This query joins all the relevant tables to these questions
-  (sql/query ds ["SELECT * FROM purchases p 
-                  JOIN items i ON p.itemId = i.id
-                  JOIN purchase_adjacent_events pae ON pae.purchaseId = p.id
-                  LIMIT 10"])
+  (def purchase-rows
+    (sql/query ds ["SELECT * FROM purchases p 
+                   JOIN items i ON p.itemId = i.id
+                   JOIN purchase_adjacent_events pae ON pae.purchaseId = p.id"]))
+
+  (def events (->> (exercise-1/get-corrected-data)
+                   (map coerce-id)))
+
+  (def users (->> (range 10)
+                  (mapcat get-users)))
+
+  ;; Gross Proceeds
+  (->> (join-data purchase-rows users events)
+       (group-by (juxt #(quot (:age %) 20) :event-type))
+       (medley/map-vals #(map gross-proceeds %))
+       (medley/map-vals #(apply + %))
+       (sort-by (comp - second)))
+
+  ;; Quantity
+  (->> (join-data purchase-rows users events)
+       (group-by (juxt #(quot (:age %) 20) :event-type))
+       (medley/map-vals #(map :purchases/quantity %))
+       (medley/map-vals #(apply + %))
+       (sort-by (juxt ffirst (comp - second))))
 
   ;; Docs: http://workshop.wmatson.com:8084/api-docs
-  ;; There are 1000 users total, the endpoint is paginated
-  ;; with a max page size of 100
   (http/request {:url (str base-url "users")
                  :method :get
                  :as :json}))

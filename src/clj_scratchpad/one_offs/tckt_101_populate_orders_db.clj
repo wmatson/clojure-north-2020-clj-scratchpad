@@ -92,8 +92,9 @@
                       ["shiny rock" 100]])
 
   (let [possible-item-ids (map :items/id (sql/query ds ["SELECT id FROM items"]))
+        article-ids [340 404 100 173]
         gen-args {:user-ids (range 1000)
-                  :event-ids (range 500)
+                  :event-ids (apply concat (range 500) (repeat 50 article-ids))
                   :item-ids possible-item-ids}]
     (->> (repeatedly 300 #(gen-purchase gen-args))
          (populate-purchases! ds)))
