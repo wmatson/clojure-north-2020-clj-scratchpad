@@ -1,0 +1,13 @@
+FROM clojure:tools-deps-alpine
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+COPY deps.edn /usr/src/app
+
+#Install Deps
+RUN ["clojure", "-e", "\"(+ 1 1)\""]
+
+COPY src /usr/src/app/src
+
+CMD ["clojure", "-m", "clj-scratchpad.one-offs.tckt-101-populate-orders-db"]

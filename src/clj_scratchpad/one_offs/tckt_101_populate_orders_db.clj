@@ -4,15 +4,6 @@
             [clj-scratchpad.utils.password :as pass]
             [clj-scratchpad.utils.csv :as csv]))
 
-(def db {:dbtype "mysql" :host "workshop-db.wmatson.com"
-         :user "root" :password (pass/get-password :orders-db/admin)
-         :dbname "orders"})
-
-(def readonly-db
-  {:dbtype "mysql" :host "workshop-db.wmatson.com"
-   :user "read-only" :password (pass/get-password :orders-db/read-only)
-   :dbname "orders"})
-
 (defn- create-schema! [ds]
   (jdbc/execute! ds ["CREATE TABLE items ( 
                       id INT PRIMARY KEY AUTO_INCREMENT,
@@ -29,6 +20,17 @@
                       purchaseId INT NOT NULL,
                       eventId INT NOT NULL,
                       direction enum('above','below'))"]))
+
+(defn- create-items! [ds]
+  (sql/insert-multi! ds :items
+                     [:name :cost]
+                     [["apple" 5]
+                      ["orange" 4.7]
+                      ["banana" 3.6]
+                      ["cloth cap" 27]
+                      ["morel mushroom" 10.5]
+                      ["clay pot" 10.3]
+                      ["shiny rock" 100]]))
 
 (defn- create-read-user [ds]
   (jdbc/execute! ds ["create user 'read-only'@'%' identified by 'visi0n'"])
@@ -67,29 +69,52 @@
   (jdbc/execute! ds ["DROP TABLE purchases"])
   (jdbc/execute! ds ["DROP TABLE purchase_adjacent_events"]))
 
+(defn- get-prop [prop default]
+  (or (System/getProperty prop)
+      (get (System/getenv) prop)
+      default))
+
+(defn -main [& args]
+  (let [admin-pass (get-prop "MYSQL_ADMIN_PASSWORD" "clojure-north-2020!")
+        readonly-pass (get-prop "MYSQL_READER_PASSWORD" "visi0n")
+        mysql-host (get-prop "MYSQL_HOST" "mysql")
+        db {:dbtype "mysql" :host mysql-host
+            :user "root" :password admin-pass
+            :dbname "orders"}
+        ds (jdbc/get-datasource db)]
+    (println "Creating Schema")
+    (create-schema! ds)
+    (println "Creating Read User")
+    (create-read-user ds)
+    (println "Creating Items")
+    (create-items! ds)
+    (println "Populating Orders")
+    (let [possible-item-ids (map :items/id (sql/query ds ["SELECT id FROM items"]))
+          article-ids [340 404 100 173]
+          gen-args {:user-ids (range 1000)
+                    :event-ids (apply concat (range 500) (repeat 50 article-ids))
+                    :item-ids possible-item-ids}]
+      (->> (repeatedly 300 #(gen-purchase gen-args))
+           (populate-purchases! ds)))))
+
 (comment
-  (def read-ds (jdbc/get-datasource readonly-db))
+  (System/setProperty "MYSQL_HOST" "localhost")
+  (main-)
+  (do
+    (def db {:dbtype "mysql" :host "workshop-db.wmatson.com"
+             :user "root" :password (pass/get-password :orders-db/admin)
+             :dbname "orders"})
 
-  (sql/query read-ds
-             ["SELECT * FROM purchases p 
-               JOIN items i ON p.itemId = i.id
-               JOIN purchase_adjacent_events pae ON pae.purchaseId = p.id
-               LIMIT 10"])
+    (def readonly-db
+      {:dbtype "mysql" :host "workshop-db.wmatson.com"
+       :user "read-only" :password (pass/get-password :orders-db/read-only)
+       :dbname "orders"})
 
-  (def ds (jdbc/get-datasource db))
+    (def ds (jdbc/get-datasource db)))
 
   (create-schema! ds)
   (create-read-user ds)
-
-  (sql/insert-multi! ds :items
-                     [:name :cost]
-                     [["apple" 5]
-                      ["orange" 4.7]
-                      ["banana" 3.6]
-                      ["cloth cap" 27]
-                      ["morel mushroom" 10.5]
-                      ["clay pot" 10.3]
-                      ["shiny rock" 100]])
+  (create-items ds)
 
   (let [possible-item-ids (map :items/id (sql/query ds ["SELECT id FROM items"]))
         article-ids [340 404 100 173]
@@ -98,6 +123,14 @@
                   :item-ids possible-item-ids}]
     (->> (repeatedly 300 #(gen-purchase gen-args))
          (populate-purchases! ds)))
+
+  (def read-ds (jdbc/get-datasource readonly-db))
+
+  (sql/query read-ds
+             ["SELECT * FROM purchases p 
+               JOIN items i ON p.itemId = i.id
+               JOIN purchase_adjacent_events pae ON pae.purchaseId = p.id
+               LIMIT 10"])
 
   (delete-schema! ds))
 

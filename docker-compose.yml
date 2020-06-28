@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  upload-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.exercise-1
+    ports:
+      - "8080:8080"
+  user-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.exercise-2
+    ports:
+      - "8084:8084"
+  mysql:
+    image: mysql:8.0.20
+    ports:
+      - "3306:3306"
+    environment:
+      - "MYSQL_DATABASE=orders"
+      - "MYSQL_ROOT_PASSWORD=clojure-north-2020!"
+  mysql-init:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.mysql-pop
+    depends_on:
+      - mysql
