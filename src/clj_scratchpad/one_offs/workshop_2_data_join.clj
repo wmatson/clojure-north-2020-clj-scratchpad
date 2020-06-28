@@ -25,16 +25,16 @@
 
 ;;Password is visi0n
 (def readonly-db
-  {:dbtype "mysql" :host "workshop-db.wmatson.com"
+  {:dbtype "mysql" :host "localhost"
    :user "read-only" :password (pass/get-password :orders-db/read-only)
    :dbname "orders"})
 
 (def ds (jdbc/get-datasource readonly-db))
 
-(def base-url "http://workshop.wmatson.com:8084/api/")
+(def base-url "http://localhost:8084/api/")
 
 (comment
-  
+
   ;; This query joins all the relevant tables to these questions
   (sql/query ds ["SELECT * FROM purchases p 
                   JOIN items i ON p.itemId = i.id

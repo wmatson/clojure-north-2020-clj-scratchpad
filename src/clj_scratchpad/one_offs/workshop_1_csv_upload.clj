@@ -18,7 +18,7 @@
   ;; The last file that uploaded successfully is under 
   ;; <project-root>/resources/working-exercise-1.csv
   ;; 
-  ;; Upload location: http://workshop.wmatson.com:8080/
+  ;; Upload location: http://localhost:8080/
   ;; File to upload <project-root>/resources/exercise-1.csv
-  
+
   (take 10 (csvu/read-maps "resources/exercise-1.csv")))

@@ -25,3 +25,15 @@ Developed By: Wesley A Matson
 - Data Joining Exercise (20 minutes)
 - "Next Steps" (5 minutes)
 - Q&A (10 minutes)
+
+----
+
+Now that the conference is over, I've taken down the relevant AWS resources, but you can run the full set on localhost with the following command in the root directory of this repo:
+
+```
+docker-compose up --build
+```
+
+This will take a few minutes the first time, but should be fairly quick thereafter.
+
+If you take everything down and run this same command a second time, the mysql instance won't be rebuilt so the init script will fail, this doesn't hurt anything.
